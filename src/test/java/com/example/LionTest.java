@@ -14,7 +14,7 @@ import static org.mockito.Mockito.when;
 class LionTest {
 
     @Mock
-    Predator predator;
+    Feline predator;
 
     @Test
     void getKittensReturnsKittensFromPredator() throws Exception {

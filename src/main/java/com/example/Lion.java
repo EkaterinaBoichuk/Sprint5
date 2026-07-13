@@ -5,9 +5,10 @@ import java.util.List;
 public class Lion {
 
     boolean hasMane;
-    private final Predator predator;
+    private final Feline predator;
 
-    public Lion(String sex, Predator predator) throws Exception {
+    public Lion(String sex, Feline
+            predator) throws Exception {
         if ("Самец".equals(sex)) {
             hasMane = true;
         } else if ("Самка".equals(sex)) {

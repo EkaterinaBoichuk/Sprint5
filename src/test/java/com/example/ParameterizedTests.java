@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class ParameterizedTests {
 
     @Mock
-    Predator predator;
+    Feline predator;
 
     @ParameterizedTest
     @ValueSource(ints = {0, 1, 2, 5, 10})
